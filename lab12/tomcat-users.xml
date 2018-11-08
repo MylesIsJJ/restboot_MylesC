@@ -1,0 +1,15 @@
+<tomcat-users xmlns="http://tomcat.apache.org/xml"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://tomcat.apache.org/xml tomcat-users.xsd"
+             version="1.0">
+
+
+  <role rolename="student"/>
+ <role rolename="instructor"/>
+ <role rolename="admin"/>
+
+ <user username="student1" password="test" roles="student"/>
+ <user username="instructor1" password="test" roles="instructor"/>
+ <user username="your_name" password="test" roles="admin"/>
+ <user username="justin" password="test" roles="student, instructor"/>
+ </tomcat-users>
